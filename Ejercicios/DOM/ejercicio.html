@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercico 1 con DOM JS</title>
+    <style>
+        body {
+            background-color: rgb(34, 102, 158);
+            color: white;
+            margin: 5rem
+        }
+
+        header {
+            background-color: rgb(137, 34, 158);
+            color: white;
+            margin: 1rem
+        }
+
+        section {
+            background-color: rgb(172, 26, 135);
+            color: white;
+            margin: 3rem
+
+        }
+
+        .parrafo1 {
+            font-size: 25px;
+            color: yellow;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 2rem;
+            border-radius: 1rem;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cambios con DOM</h1>
+        <p id="miParrafo" class="parrafo1">Estoy en Colombia</p>
+    </header>
+    <section>
+        <button id="miBoton">Verdad</button>
+    </section>
+
+    <script>
+        const boton = document.getElementById("miBoton");
+        const parrafo = document.getElementById("miParrafo");
+        const texto = "Deseo vijar a Australia"
+        const texto1 = "Deseo"
+
+        boton.addEventListener("click", function () {
+            parrafo.innerHTML =  texto
+
+            parrafo.style.color = 'black'
+            parrafo.style.fontSize = '30px'
+        })
+
+        boton.addEventListener("click", function () {
+            boton.innerHTML =  texto1
+
+            boton.style.color = 'Red'
+            boton.style.fontSize = '30px'
+        }
+    
+    );
+    </script>
+</body>
+
+</html>
