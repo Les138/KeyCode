@@ -3,11 +3,10 @@ import './index.css';
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600 mb-4">Aprendizaje React</h1>
-      <p className="text-lg text-gray-700 mb-6">Selects Anidados</p>
-      <hr className="border-2 border-blue-500 w-full mb-6" />
-      <div className="w-3/4">
+    <div className="flex flex-col items-center justify-center min-h-screen p-10 text-white bg-gray-900">
+      <h1 className="mb-4 text-3xl font-light tracking-widest">Aprendizaje React</h1>
+      <p className="mb-10 text-lg font-medium">Selects Anidados</p>
+      <div className="w-full max-w-lg">
         {/* SelectAnidados */}
         <Selects />
       </div>
@@ -16,3 +15,7 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
