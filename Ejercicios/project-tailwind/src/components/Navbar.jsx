@@ -16,22 +16,22 @@ const Navbar = () => {
         <div className="text-2xl font-bold">MyLogo</div>
         {/* //Botones// */}
         <div className="hidden space-x-4 md:flex">
-          <button className="p-1 text-black bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
             Inicio
           </button>
-          <button className="p-1 text-black bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
             Servicios
           </button>
-          <button className="p-1 text-black bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
             Nosotros
           </button>
-          <button className="p-1 text-black bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
             PQR
           </button>
-          <button className="p-1 text-black bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
             Contactos
           </button>
-          <button className="p-1 text-black bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
             Ubicacion
           </button>
         </div>
