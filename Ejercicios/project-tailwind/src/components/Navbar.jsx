@@ -16,22 +16,22 @@ const Navbar = () => {
         <div className="text-2xl font-bold">MyLogo</div>
         {/* //Botones// */}
         <div className="hidden space-x-4 md:flex">
-          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-slate-300 hover:bg-purple-700 ">
             Inicio
           </button>
-          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-slate-300 hover:bg-purple-700 ">
             Servicios
           </button>
-          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-slate-300 hover:bg-purple-700 ">
             Nosotros
           </button>
-          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-slate-300 hover:bg-purple-700 ">
             PQR
           </button>
-          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-slate-300 hover:bg-purple-700 ">
             Contactos
           </button>
-          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-gray-200 hover:bg-black ">
+          <button className="p-1 text-black transition ease-in-out bg-white border rounded hover:text-slate-300 hover:bg-purple-700 ">
             Ubicacion
           </button>
         </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
 
         {estaAbierto && (
-          <div className="absolute left-0 w-full text-center bg-blue-600 md:hidden top-16">
+          <div className="absolute left-0 w-full text-center bg-violet-300 md:hidden top-16">
             <button className="block w-full p-1 py-2 rounded hover:text-gray-200">
               Inicio
             </button>
